@@ -52,6 +52,7 @@
               }
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.css"
             ],
             "scripts": []
@@ -103,11 +104,9 @@
               "zone.js/testing"
             ],
             "tsConfig": "tsconfig.spec.json",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+            "assets":  [
+              "src/assets",
+              "src/favicon.ico"
             ],
             "styles": [
               "src/styles.css"
@@ -117,5 +116,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "0c059138-8a6f-4eee-b2f6-0182d719531e"
   }
 }

@@ -1,0 +1,95 @@
+.example-card {
+    max-width: 200px;
+    height: 375px;
+    border-radius: 10px;
+    
+}
+.example-header-image {
+    background-size: cover;
+}
+.flex-header{
+    display: flex;
+    flex-direction: column;
+}
+.flex-types{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.Plante,.Feu,.Eau,.Normal,.Insecte,.Électrique,.Fée,.Poison,.Combat,.Psy,.Acier,.Sol,.Spectre,.Vol{
+    color: white;
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+}
+.Plante{
+    background-color: green;
+    border-radius: 30px;
+    text-align: center;
+}
+.Feu{
+    background-color: red;
+    border-radius: 30px;
+    text-align: center;
+}
+.Eau{
+    background-color: blue;
+    border-radius: 30px;
+    text-align: center;
+}
+.Normal{
+    background-color: lightgray;
+    border-radius: 30px;
+    text-align: center;
+}
+.Insecte{
+    background-color: rgb(217, 164, 5);
+    border-radius: 30px;
+    text-align: center;
+}
+.Électrique{
+    background-color: rgb(255, 191, 0);
+    border-radius: 30px;
+    text-align: center;
+}
+.Fée{
+    background-color: rgb(255, 0, 200);
+    border-radius: 30px;
+    text-align: center;
+}
+.Poison{
+    background-color: rgb(0, 157, 86);
+    border-radius: 30px;
+    text-align: center;
+}
+.Combat{
+    background-color: rgb(157, 79, 0);
+    border-radius: 30px;
+    text-align: center;
+}
+.Psy{
+    background-color: rgb(188, 145, 95);
+    border-radius: 30px;
+    text-align: center;
+}
+.Acier{
+    background-color: gray;
+    border-radius: 30px;
+    text-align: center; 
+}
+.Sol{
+    background-color: rgb(55, 235, 0);
+    border-radius: 30px;
+    text-align: center; 
+}
+.Spectre{
+    background-color: lightblue;
+    border-radius: 30px;
+    text-align: center; 
+}
+.Vol{
+    background-color: rgb(114, 220, 255);
+    border-radius: 30px;
+    text-align: center; 
+}

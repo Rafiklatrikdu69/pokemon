@@ -1,0 +1,18 @@
+<mat-card class="example-card" appearance="outlined">
+    <mat-card-header class="flex-header">
+        <div>
+            <mat-card-title>{{pokemon.nom}}</mat-card-title>
+        </div>      
+        <div class="flex-types">
+            @for (type of pokemon.type; track $index) {
+                <mat-card-subtitle [class]="type">{{type}}</mat-card-subtitle>
+            }
+        </div>
+    </mat-card-header>
+    <img mat-card-image [src]="pokemon.image" alt="Photo of a Shiba Inu">
+    <mat-card-actions>
+        <div class="example-button-row">
+            <button mat-button>Détails</button>
+        </div>
+    </mat-card-actions>
+</mat-card>
