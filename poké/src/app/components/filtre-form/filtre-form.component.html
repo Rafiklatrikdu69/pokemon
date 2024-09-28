@@ -1,8 +1,6 @@
-<form [formGroup]="form" (ngSubmit)="onSubmit()">
+<form [formGroup]="form">
     <mat-form-field >
         <mat-label>Rechercher un pokémon</mat-label>
         <input matInput formControlName="pokemon">
     </mat-form-field>
-   {{searchText()}}
-    <button mat-button>Rechercher</button>
 </form>

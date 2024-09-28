@@ -5,10 +5,6 @@
 <div class="flex-pokemons">
     @for (pokemon of filterComputed() | async ; track pokemon.id) {
       <card-pokemon [pokemon]="pokemon"></card-pokemon>
-    }@empty {
-      @for (pokemon of pokemons$ | async ; track pokemon.id) {
-        <card-pokemon [pokemon]="pokemon"></card-pokemon>
-      }
     }
 </div>
 </main>

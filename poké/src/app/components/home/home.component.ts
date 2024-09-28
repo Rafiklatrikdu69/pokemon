@@ -6,7 +6,6 @@ import { PokemonService } from '../../../domain/services/PokemonService';
 import { CardPokemonComponent } from "../card-pokemon/card-pokemon.component";
 import { FiltreFormComponent } from "../filtre-form/filtre-form.component";
 import { filter, map } from 'rxjs';
-import { Pokemon } from '../../../domain/models/pokemon.model';
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -26,7 +25,7 @@ export class HomeComponent {
   filterComputed = computed(() => {
     const filterValue = this.filter();  
     return this.pokemons$.pipe(
-      map(pokemons => pokemons.filter(pokemon => (pokemon.nom.includes(filterValue) || '')))
+      map(pokemons => pokemons.filter(pokemon => (pokemon.nom.toLowerCase().includes(filterValue.toLowerCase()) || '')))
     );
   });
   

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "nom": "Bulbizarre",
+    "type": ["Plante", "Poison"],
+    "statistiques_de_base": {
+      "pv": 45,
+      "attaque": 49,
+      "defense": 49,
+      "vitesse": 45
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
+  },
+  {
+    "id": 4,
+    "nom": "Salamèche",
+    "type": ["Feu"],
+    "statistiques_de_base": {
+      "pv": 39,
+      "attaque": 52,
+      "defense": 43,
+      "vitesse": 65
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png"
+  },
+  {
+    "id": 7,
+    "nom": "Carapuce",
+    "type": ["Eau"],
+    "statistiques_de_base": {
+      "pv": 44,
+      "attaque": 48,
+      "defense": 65,
+      "vitesse": 43
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png"
+  },
+  {
+    "id": 25,
+    "nom": "Pikachu",
+    "type": ["Électrique"],
+    "statistiques_de_base": {
+      "pv": 35,
+      "attaque": 55,
+      "defense": 40,
+      "vitesse": 90
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png"
+  },
+  {
+    "id": 27,
+    "nom": "Sabelette",
+    "type": ["Sol"],
+    "statistiques_de_base": {
+      "pv": 50,
+      "attaque": 75,
+      "defense": 85,
+      "vitesse": 40
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png"
+  },
+  {
+    "id": 35,
+    "nom": "Mélodelfe",
+    "type": ["Fée"],
+    "statistiques_de_base": {
+      "pv": 95,
+      "attaque": 70,
+      "defense": 73,
+      "vitesse": 60
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png"
+  },
+  {
+    "id": 37,
+    "nom": "Goupix",
+    "type": ["Feu"],
+    "statistiques_de_base": {
+      "pv": 38,
+      "attaque": 41,
+      "defense": 40,
+      "vitesse": 65
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png"
+  },
+  {
+    "id": 39,
+    "nom": "Rondoudou",
+    "type": ["Normal", "Fée"],
+    "statistiques_de_base": {
+      "pv": 115,
+      "attaque": 45,
+      "defense": 20,
+      "vitesse": 20
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png"
+  },
+  {
+    "id": 52,
+    "nom": "Miaouss",
+    "type": ["Normal"],
+    "statistiques_de_base": {
+      "pv": 40,
+      "attaque": 45,
+      "defense": 35,
+      "vitesse": 90
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png"
+  },
+  {
+    "id": 54,
+    "nom": "Psykokwak",
+    "type": ["Eau"],
+    "statistiques_de_base": {
+      "pv": 50,
+      "attaque": 52,
+      "defense": 48,
+      "vitesse": 55
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png"
+  },
+  {
+    "id": 58,
+    "nom": "Caninos",
+    "type": ["Feu"],
+    "statistiques_de_base": {
+      "pv": 55,
+      "attaque": 70,
+      "defense": 45,
+      "vitesse": 60
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png"
+  },
+  {
+    "id": 63,
+    "nom": "Abra",
+    "type": ["Psy"],
+    "statistiques_de_base": {
+      "pv": 25,
+      "attaque": 20,
+      "defense": 15,
+      "vitesse": 90
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png"
+  },
+  {
+    "id": 66,
+    "nom": "Machoc",
+    "type": ["Combat"],
+    "statistiques_de_base": {
+      "pv": 70,
+      "attaque": 80,
+      "defense": 50,
+      "vitesse": 35
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png"
+  },
+  {
+    "id": 77,
+    "nom": "Ponyta",
+    "type": ["Feu"],
+    "statistiques_de_base": {
+      "pv": 50,
+      "attaque": 85,
+      "defense": 55,
+      "vitesse": 90
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png"
+  },
+  {
+    "id": 81,
+    "nom": "Magnéti",
+    "type": ["Électrique", "Acier"],
+    "statistiques_de_base": {
+      "pv": 25,
+      "attaque": 35,
+      "defense": 70,
+      "vitesse": 45
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png"
+  },
+  {
+    "id": 83,
+    "nom": "Canarticho",
+    "type": ["Normal", "Vol"],
+    "statistiques_de_base": {
+      "pv": 52,
+      "attaque": 90,
+      "defense": 55,
+      "vitesse": 60
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/083.png"
+  },
+  {
+    "id": 88,
+    "nom": "Tadmorv",
+    "type": ["Poison"],
+    "statistiques_de_base": {
+      "pv": 80,
+      "attaque": 80,
+      "defense": 50,
+      "vitesse": 25
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/088.png"
+  },
+  {
+    "id": 92,
+    "nom": "Fantominus",
+    "type": ["Spectre", "Poison"],
+    "statistiques_de_base": {
+      "pv": 30,
+      "attaque": 35,
+      "defense": 30,
+      "vitesse": 80
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png"
+  },
+  {
+    "id": 98,
+    "nom": "Krabby",
+    "type": ["Eau"],
+    "statistiques_de_base": {
+      "pv": 30,
+      "attaque": 105,
+      "defense": 90,
+      "vitesse": 50
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png"
+  },
+  {
+    "id": 102,
+    "nom": "Noeunoeuf",
+    "type": ["Plante", "Psy"],
+    "statistiques_de_base": {
+      "pv": 60,
+      "attaque": 40,
+      "defense": 80,
+      "vitesse": 40
+    },
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/102.png"
+  }
+]
